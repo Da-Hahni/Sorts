@@ -4,23 +4,23 @@ public class InsertionSort : ISort
 {
     public void Sort(int[] uzahlen)
     {
-        int[] szahlen = new int[uzahlen.Length];
-        int j = 0;
+        for (int i = 1; i < uzahlen.Length; i++)
+        {
+            int temp = uzahlen[i];
+            int j = i - 1;
+
+            while (j >= 0 && array[j] > temp)
+            {
+                array[j + 1] = array[j];
+                j--;
+            }
+            array[j + 1] = temp;
+        }
+
+        Console.WriteLine("Sorted array:");
         for (int i = 0; i < uzahlen.Length; i++)
         {
-            if (uzahlen[i] > szahlen[j])
-            {
-                szahlen[i] = uzahlen[j];
-            }
-            else
-            {
-                szahlen[i - 1] = uzahlen[j];
-            }
-            j++;
-        }
-        for (int i = 0; i < szahlen.Length; i++)
-        {
-            Console.Write(szahlen[i] + " ");
+            Console.Write(uzahlen[i] + " ");
         }
     }
 }

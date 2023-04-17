@@ -9,7 +9,9 @@ public class BubbleSort : ISort
             for (int i = 0; i < uzahlen.Length - j; i++) //j verhindert das kontrollieren von sortierten Zahlen (rechts)
             {
                 if (uzahlen[i] > uzahlen[i + 1])
-                    (uzahlen[i], uzahlen[i + 1]) = (uzahlen[i + 1], uzahlen[i]);
+                {
+                    (uzahlen[i], uzahlen[i + 1]) = (uzahlen[i + 1], uzahlen[i]); //Werte werden vertauscht
+                }
             }
         }
 

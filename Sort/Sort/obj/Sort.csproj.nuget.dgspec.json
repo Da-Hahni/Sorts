@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simon\\OneDrive - HTL Krems\\1.Schwule Schule\\Sew\\Codes\\Sort\\Sort\\Sort.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\Sorts\\Sort\\Sort\\Sort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simon\\OneDrive - HTL Krems\\1.Schwule Schule\\Sew\\Codes\\Sort\\Sort\\Sort.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\Sorts\\Sort\\Sort\\Sort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simon\\OneDrive - HTL Krems\\1.Schwule Schule\\Sew\\Codes\\Sort\\Sort\\Sort.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\Sorts\\Sort\\Sort\\Sort.csproj",
         "projectName": "Sort",
-        "projectPath": "C:\\Users\\Simon\\OneDrive - HTL Krems\\1.Schwule Schule\\Sew\\Codes\\Sort\\Sort\\Sort.csproj",
-        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simon\\OneDrive - HTL Krems\\1.Schwule Schule\\Sew\\Codes\\Sort\\Sort\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\Sorts\\Sort\\Sort\\Sort.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\Sorts\\Sort\\Sort\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -45,12 +49,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

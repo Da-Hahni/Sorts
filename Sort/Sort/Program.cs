@@ -8,7 +8,7 @@ public class Program
         int[] uzahlen = new int[Convert.ToInt64(Console.ReadLine())];
 
 
-        Console.WriteLine("Was wollen sie tun? \n m(Sort methode)  \n p(Programm beenden)");        
+        Console.WriteLine("Was wollen sie tun? \n m(Sort methode) \n u(unsortiertes Array) \n p(Programm beenden)");        
         Random rnd = new Random();
         for (int i = 0; i < uzahlen.Length; i++)
         {
@@ -31,10 +31,12 @@ public class Program
             
                     case 2:
                         sort = new InsertionSort();
-                        sort.Sort(uzahlen);
+                        sort.Sort(uzahlen);                                 //ich liebe dihc morizz
                         break;
             
                     case 3:
+                        sort = new SelectionSort();
+                        sort.Sort(uzahlen);
                         break;
                 }
                 break;
